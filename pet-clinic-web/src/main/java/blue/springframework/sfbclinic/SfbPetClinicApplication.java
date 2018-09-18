@@ -1,4 +1,4 @@
-package blue.springframework.sfbpetclinic;
+package blue.springframework.sfbclinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
