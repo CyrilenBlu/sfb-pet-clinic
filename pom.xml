@@ -4,7 +4,7 @@
 
     <groupId>blue.springframework</groupId>
     <artifactId>sfb-pet-clinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <modules>
         <module>pet-clinic-data</module>
         <module>pet-clinic-web</module>
@@ -41,6 +41,7 @@
                     <checkModificationExcludes>
                         <checkModificationExclude>pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
@@ -48,7 +49,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/CyrilenBlu/sfb-pet-clinic.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>sfb-pet-clinic-0.0.2</tag>
   </scm>
 
 </project>
