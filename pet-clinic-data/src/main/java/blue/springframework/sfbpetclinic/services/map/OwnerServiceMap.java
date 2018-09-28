@@ -1,11 +1,11 @@
 package blue.springframework.sfbpetclinic.services.map;
 
 import blue.springframework.sfbpetclinic.model.Owner;
-import blue.springframework.sfbpetclinic.services.CrudService;
+import blue.springframework.sfbpetclinic.services.OwnerService;
 
 import java.util.Set;
 
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long>
+public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService
 {
 
     @Override
@@ -31,5 +31,10 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     @Override
     public Owner findById(Long id) {
         return super.findById(id);
+    }
+
+    @Override
+    public Owner findByLastName(String lastName) {
+        return null;
     }
 }
