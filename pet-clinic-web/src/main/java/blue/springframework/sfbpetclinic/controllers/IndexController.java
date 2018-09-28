@@ -1,4 +1,4 @@
-package blue.springframework.sfbclinic.controllers;
+package blue.springframework.sfbpetclinic.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
