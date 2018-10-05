@@ -16,8 +16,6 @@ public class OwnerController
     }
 
 
-
-
     @RequestMapping({"","/","/index","/index.html"})
     public String listOwners(Model model)
     {
@@ -25,3 +23,5 @@ public class OwnerController
         return "owners/index";
     }
 }
+
+

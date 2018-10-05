@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'home')}">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'owners')}">
 <head>
     <meta charset="UTF-8">
     <title>List of Owners</title>
 </head>
 <body>
+<!--/*thymesVar id="vet" type="guru.springframework.sfbpetclinic.model.Owner"*/-->
     <h2 th:text="'List of Owners'">List of Owners...</h2>
 
     <table class="table table-striped">
